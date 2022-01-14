@@ -25,7 +25,7 @@ def create_merged_pdf(files, output_file):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('pdf_file', nargs='+')
-    parser.add_argument('-f','--output',help="Name of Output file.")
+    parser.add_argument('-o','--output',help="Name of Output file.")
     return parser.parse_args()
 
 def check_files(files):
