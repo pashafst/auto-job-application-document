@@ -9,4 +9,4 @@ PyPDF2
 
 ## How to use
 
-`./main.py [-h] [-o OUTPUT] pdf_file [pdf_file ...]´
+`./main.py [-h] [-o OUTPUT] pdf_file [pdf_file ...]`
